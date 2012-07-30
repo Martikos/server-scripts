@@ -10,6 +10,10 @@
 
 ## Scripts
 
-one liner:
+Install nodejs:
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/install | sh ``
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/node-installer | sh ``
+
+Install npm basic packages:
+
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/npm-packages | sh ``
