@@ -1,0 +1,12 @@
+#!/bin/bash
+# Make user own /usr/local/  after all this is where we want OUR program to run :)
+sudo chown -R $USER /usr/local
+
+# Install node.js
+sudo apt-get install python-software-properties
+sudo apt-add-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+
+# install npm to /usr/local/
+curl http://npmjs.org/install.sh | npm_config_prefix=/usr/local sh
