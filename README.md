@@ -12,4 +12,4 @@
 
 one liner:
 
-`` curl http://npmjs.org/install.sh | sh ``
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/install | sh ``
