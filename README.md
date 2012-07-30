@@ -10,6 +10,10 @@
 
 ## Scripts
 
+Install needed packages (git, make, etc..):
+
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/dev-packages | sh ``
+
 Install nodejs:
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/node-installer | sh ``
