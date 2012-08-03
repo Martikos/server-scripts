@@ -1,6 +1,17 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Table of contents](#table-of-contents)
+- [Installation procedure](#installation-procedure)
+	- [Manual Steps](#manual-steps)
+		- [Create a new user](#create-a-new-user)
+	- [Scripts](#scripts)
+		- [Important tools](#important-tools)
+		- [Node related](#node-related)
+		- [php apache mysql](#php-apache-mysql)
+
 # Installation procedure
 
-## Manual steps
+## Manual Steps
 
 ### Create a new user
 
@@ -10,9 +21,13 @@
 
 ## Scripts
 
+### Important tools
+
 Install needed packages (git, make, etc..):
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/dev-packages | sh ``
+
+### Node related
 
 Install nodejs:
 
@@ -21,3 +36,10 @@ Install nodejs:
 Install npm basic packages:
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/npm-packages | sh ``
+
+### php apache mysql
+
+Install php5, apache2 and mysql
+
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/php-apache-mysql | sh ``
+

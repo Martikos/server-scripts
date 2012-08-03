@@ -1,0 +1,12 @@
+#!/bin/bash
+sudo su 
+
+echo "Instaling mysql"
+apt-get install mysql-server mysql-client
+
+echo "Instaling apache2"
+apt-get install apache2
+
+echo "php5"
+apt-get install php5 libapache2-mod-php5
+/etc/init.d/apache2 restart
