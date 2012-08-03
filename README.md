@@ -1,16 +1,12 @@
-*Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Table of contents](#table-of-contents)
-- [Installation procedure](#installation-procedure)
-	- [Manual Steps](#manual-steps)
-		- [Create a new user](#create-a-new-user)
-	- [Scripts](#scripts)
-		- [Important tools](#important-tools)
-		- [Node related](#node-related)
-		- [php apache mysql](#php-apache-mysql)
+- [Manual Steps](#manual-steps)
+	- [Create a new user](#create-a-new-user)
+- [Scripts](#scripts)
+	- [Important tools](#important-tools)
+	- [Node related](#node-related)
+	- [php apache mysql](#php-apache-mysql)
 
-* auto-gen TOC:
-{:toc}
 # Manual Steps
 
 ## Create a new user
