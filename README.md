@@ -12,7 +12,7 @@
 ## Create a new user
 
 * Log in first using your root account.
-* create a new user by following the directives stated [here](http://clipboard.com/clip/LQcvw4nICMqjz1jdSTlg7IGrxjI1KAEvahLe)
+* Create a new user by following the directives stated [here](http://clipboard.com/clip/LQcvw4nICMqjz1jdSTlg7IGrxjI1KAEvahLe)
 * Add your public ssh key into the machine's authorized_keys as shown [here](http://clipboard.com/clip/LQcwYYrilCbrSi5vHD_Udpg8avI5A2byW0Te)
 
 # Scripts
@@ -39,3 +39,16 @@ Install php5, apache2 and mysql
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/php-apache-mysql | sh ``
 
+# Troubleshooting
+
+## Apache
+
+``  ... waiting apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName  ``
+
+Run the following:
+
+``` bash
+sudo su
+echo "ServerName localhost" >> /etc/apache2/httpd.conf
+/etc/init.d/apache2 restart
+```
