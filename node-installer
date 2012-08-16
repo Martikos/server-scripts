@@ -10,3 +10,8 @@ sudo apt-get install -y nodejs
 
 # install npm to /usr/local/
 curl http://npmjs.org/install.sh | npm_config_prefix=/usr/local sh
+
+# install nvm
+git clone git://github.com/creationix/nvm.git ~/nvm
+echo "# nvm config" >> ~/.bashrc
+echo ". ~/nvm/nvm.sh" >> ~/.bashrc

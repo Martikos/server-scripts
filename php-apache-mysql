@@ -8,5 +8,5 @@ echo "Instaling apache2"
 apt-get install apache2
 
 echo "php5"
-apt-get install php5 libapache2-mod-php5
+apt-get install php5 libapache2-mod-php5 php5-mysql
 /etc/init.d/apache2 restart

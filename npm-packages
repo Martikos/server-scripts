@@ -2,3 +2,4 @@ npm install -g coffee-script
 npm install -g nodemon
 npm install -g html2jade
 npm install -g markdown
+npm install -g forever
