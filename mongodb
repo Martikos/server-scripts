@@ -4,8 +4,8 @@
 # Configuration
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 
-wget https://raw.github.com/tUrG0n/lib/10gen.list/master/dev-packages 
-sudo cp ./10gen.list /etc/apt/sources.list.d/
+wget https://raw.github.com/tUrG0n/server-scripts/master/lib/10gen.list
+sudo mv ./10gen.list /etc/apt/sources.list.d/
 
 sudo apt-get update
 
