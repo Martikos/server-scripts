@@ -1,0 +1,13 @@
+#!/bin/bash
+# As described [here](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian-or-ubuntu-linux/)
+
+# Configuration
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+
+wget https://raw.github.com/tUrG0n/server-scripts/master/lib/10gen.list
+sudo mv ./10gen.list /etc/apt/sources.list.d/
+
+sudo apt-get update
+
+# Installation
+sudo apt-get install mongodb-10gen
