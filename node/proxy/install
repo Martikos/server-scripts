@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Create the code directory
+mkdir ~/code
+cd ~/code
+
+# Create the proxy
+mkdir proxy
+cd proxy
+wget 

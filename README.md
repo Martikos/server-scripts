@@ -21,23 +21,23 @@
 
 Install needed packages (git, make, etc..):
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/dev-packages | sh ``
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/dev-packages | sh ``
 
 ## Node related
 
 Install nodejs:
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/node-installer | sh ``
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/node-installer | sh ``
 
 Install npm basic packages:
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/npm-packages | sh ``
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/npm-packages | sh ``
 
 ## php apache mysql
 
 Install php5, apache2 and mysql
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/php-apache-mysql | sh ``
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/LAMP/php-apache-mysql | sh ``
 
 # Troubleshooting
 
