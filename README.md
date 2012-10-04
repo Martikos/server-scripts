@@ -7,6 +7,8 @@
 	- [Node related](#node-related)
 	- [php apache mysql](#php-apache-mysql)
 
+----
+
 # Manual Steps
 
 ## Create a new user
@@ -14,6 +16,8 @@
 * Log in first using your root account.
 * Create a new user by following the directives stated [here](http://clipboard.com/clip/LQcvw4nICMqjz1jdSTlg7IGrxjI1KAEvahLe)
 * Add your public ssh key into the machine's authorized_keys as shown [here](http://clipboard.com/clip/LQcwYYrilCbrSi5vHD_Udpg8avI5A2byW0Te)
+
+----
 
 # Scripts
 
@@ -45,6 +49,7 @@ Install php5, apache2 and mysql
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/LAMP/php-apache-mysql | sh ``
 
+----
 
 # Setting up a node 
 
@@ -54,6 +59,8 @@ Use the following to add one in: ``~/code/proxy/proxy.js``
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/node/proxy/install | sh ``
 
+
+----
 
 # Troubleshooting
 
