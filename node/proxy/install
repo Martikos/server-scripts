@@ -7,4 +7,4 @@ cd ~/code
 # Create the proxy
 mkdir proxy
 cd proxy
-wget 
+wget https://raw.github.com/tUrG0n/server-scripts/master/node/proxy/proxy.js

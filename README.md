@@ -45,6 +45,16 @@ Install php5, apache2 and mysql
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/LAMP/php-apache-mysql | sh ``
 
+
+# Setting up a node 
+
+Suppose you want to use [node-htto-proxy](https://github.com/nodejitsu/node-http-proxy).
+
+Use the following to add one in: ``~/code/proxy/proxy.js``
+
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/node/proxy/install | sh ``
+
+
 # Troubleshooting
 
 ## Apache
