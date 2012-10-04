@@ -33,6 +33,12 @@ Install npm basic packages:
 
 `` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/npm-packages | sh ``
 
+## Mongodb
+
+Install Mongodb:
+
+`` curl https://raw.github.com/tUrG0n/server-scripts/master/mongo/mongodb | sh ``
+
 ## php apache mysql
 
 Install php5, apache2 and mysql
