@@ -2,11 +2,11 @@
 sudo su 
 
 echo "Instaling mysql"
-apt-get install mysql-server mysql-client
+apt-get install -y mysql-server mysql-client
 
 echo "Instaling apache2"
-apt-get install apache2
+apt-get install -y apache2
 
 echo "php5"
-apt-get install php5 libapache2-mod-php5 php5-mysql
+apt-get install -y php5 libapache2-mod-php5 php5-mysql
 /etc/init.d/apache2 restart
