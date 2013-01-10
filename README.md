@@ -25,29 +25,29 @@
 
 Install needed packages (git, make, etc..):
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/dev-packages | sh ``
+`` curl https://raw.github.com/Lebanese-OSS/server-scripts/master/scripts/dev-packages | sh ``
 
 ## Node related
 
 Install nodejs:
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/node-installer | sh ``
+`` curl https://raw.github.com/Lebanese-OSS/server-scripts/master/scripts/node-installer | sh ``
 
 Install npm basic packages:
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/scripts/npm-packages | sh ``
+`` curl https://raw.github.com/Lebanese-OSS/server-scripts/master/scripts/npm-packages | sh ``
 
 ## Mongodb
 
 Install Mongodb:
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/mongo/mongodb | sh ``
+`` curl https://raw.github.com/Lebanese-OSS/server-scripts/master/mongo/mongodb | sh ``
 
 ## php apache mysql
 
 Install php5, apache2 and mysql
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/LAMP/php-apache-mysql | sh ``
+`` curl https://raw.github.com/Lebanese-OSS/server-scripts/master/LAMP/php-apache-mysql | sh ``
 
 ----
 
@@ -57,7 +57,7 @@ Suppose you want to use [node-htto-proxy](https://github.com/nodejitsu/node-http
 
 Use the following to add one in: ``~/code/proxy/proxy.js``
 
-`` curl https://raw.github.com/tUrG0n/server-scripts/master/node/proxy/install | sh ``
+`` curl https://raw.github.com/Lebanese-OSS/server-scripts/master/node/proxy/install | sh ``
 
 
 ----
